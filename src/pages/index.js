@@ -181,7 +181,7 @@ const IndexPage = () => {
             </DetailServiceInfoTitle>
             <DetailServiceCaption>
               Do każdego klienta podchodzę indywidualnie, zależy mi, aby nasza
-              współpraca przebiegła na jak najwyższym poziomie.
+              współpraca przebiegła na jak najwyższym poziomie
             </DetailServiceCaption>
           </ParentElement>
           <ParentElement>

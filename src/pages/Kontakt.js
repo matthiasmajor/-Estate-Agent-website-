@@ -26,7 +26,7 @@ const Kontakt = () => {
           </HighlightedHeading>
           <Caption style={{ color: "black" }}>
             Szukasz nieruchomości dla siebie? A może potrzebujesz fachowej
-            pomocy przy sprzedaży własnej nieruchomości? Chętnie odpowiemy na
+            pomocy przy sprzedaży własnej nieruchomości? Chętnie odpowiem na
             Twoje pytania. Napisz lub zadzwoń.
           </Caption>
           <Caption

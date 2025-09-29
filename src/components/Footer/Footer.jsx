@@ -62,7 +62,7 @@ export const Footer = () => {
       <h4>Marcel Nieruchomości</h4>
       <div>
         <Link to="/Wspolpraca">Współpraca</Link>
-        <Link to="/Oferta">Oferty</Link>
+
         <Link to="/Portfolio">Portfolio</Link>
         <Link to="/Realizacje">Realizacje</Link>
         <Link to="/Kontakt">Kontakt</Link>

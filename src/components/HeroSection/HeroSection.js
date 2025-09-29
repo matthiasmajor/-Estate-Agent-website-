@@ -90,13 +90,14 @@ export const Hero = ({ url }) => {
       <BackDrop>
         <p style={{ fontSize: "18px" }}>Marcel od Nieruchomości.</p>
         <h1>Nieruchomości, które Cię zainspirują.</h1>
+
         <StyledButton
           style={{ marginTop: "15px" }}
           isAnimation
           as={Link}
-          to="/Oferta"
+          to="/Kontakt"
         >
-          Sprawdź ofertę{" "}
+          KONTAKT{" "}
         </StyledButton>
       </BackDrop>
     </HeroSection>

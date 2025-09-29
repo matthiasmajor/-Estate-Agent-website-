@@ -13,7 +13,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   data.allContentfulOfertyNieruchmosci.nodes.forEach((node) => {
-    const slug = `Oferta/${slugify(node.adres.toLowerCase())}`;
+    const slug = `Realizacje/${slugify(node.adres.toLowerCase())}`;
 
     actions.createPage({
       path: slug,

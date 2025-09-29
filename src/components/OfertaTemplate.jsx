@@ -120,7 +120,7 @@ const OfertaTemplate = ({ data: { oferta } }) => {
             }}
           />
         </Left>
-        <Right>
+        {/* <Right>
           <div>
             <BiBuildings />
             <p>Typ Budynku</p>
@@ -141,7 +141,7 @@ const OfertaTemplate = ({ data: { oferta } }) => {
             <p>Powierzchnia:</p>
             <p>{oferta.powierzchnia}</p>
           </div>
-        </Right>
+        </Right> */}
       </WrapperContent>
     </Wrapper>
   );
@@ -163,10 +163,6 @@ export const query = graphql`
       }
       tytul
       miasto
-      typBudynku
-      pomieszczenia
-      dostpno
-      powierzchnia
     }
   }
 `;

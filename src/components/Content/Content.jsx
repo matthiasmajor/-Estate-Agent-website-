@@ -81,6 +81,7 @@ export const DescriptionWrapper = styled.div`
 export const Content = ({
   id,
   name,
+  miasto,
   title,
   desc,
   category,
@@ -89,10 +90,14 @@ export const Content = ({
 }) => {
   console.log(url);
   return (
-    <Container to={getPageSlug(addres)} key={id} category={category}>
+    <Container /* to={getPageSlug(addres)} */ key={id} category={category}>
       <Image src={url} alt="hej" />
       <DescriptionWrapper>
-        <ImageDescription>{name}</ImageDescription>
+        <ImageDescription>
+          {title}
+          <br></br>
+          {name}
+        </ImageDescription>
       </DescriptionWrapper>
     </Container>
   );

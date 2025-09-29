@@ -42,11 +42,11 @@ export const Navigation = () => {
                 Współpraca
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link onClick={ToogleNavigation} to="/Oferta">
                 Oferta
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link onClick={ToogleNavigation} to="/Portfolio">
                 Portfolio

@@ -134,8 +134,8 @@ const IndexPage = () => {
             jeśli nie, zadzwoń do mnie, na pewno mam coś co Cię zainteresuje.
           </Caption>
           <ButtonWrapper>
-            <StyledButton as={Link} to="/Oferta">
-              Bieżąca oferta
+            <StyledButton as={Link} to="/Kontakt">
+              Kontakt
             </StyledButton>
             <StyledButton as={Link} to="/Realizacje">
               Ostatnie realizacje

@@ -10,6 +10,12 @@ export const MainTemplate = ({ children }) => {
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <head>
+          <meta
+            name="google-site-verification"
+            content="5xu-TJ1kZ4N1b_jfyFXQM_j_gJxxj7k-BHPfHo7VEtg"
+          />
+        </head>
         <Navigation />
         {children}
         <Footer />

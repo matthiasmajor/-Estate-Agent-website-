@@ -11,7 +11,7 @@ export const StyledButton = styled.button`
   font-weight: 500;
   text-transform: uppercase;
   display: block;
-  margin: 8px 15px;
+
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -20,10 +20,15 @@ export const StyledButton = styled.button`
     opacity: 0.6;
   }
 `;
+const ButtonWrapper = styled.div`
+  width: 360px;
+  margin-left: -1px;
+`;
 
 export const ContactFormWrapper = styled.form`
   display: flex;
   flex-direction: column;
+
   padding: 20px;
   gap: 10px;
   width: 360px;

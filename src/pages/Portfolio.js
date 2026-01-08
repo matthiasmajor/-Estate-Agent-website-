@@ -48,14 +48,7 @@ const Portfolio = () => {
       >
         <Left>
           <LeftWrapper>
-            <Title
-              position="topLeft"
-              size="100px"
-              distance="50px"
-              color="beige"
-            >
-              Praca z klientem to moja pasja.
-            </Title>
+            <Title>Praca z klientem to moja pasja.</Title>
             <Caption>
               Nieruchomościami zajmuję sie od 5 lat. Przez ten czas zdążyłem
               poznać potrzeby klientów na tyle, aby biegle poruszać się w
@@ -65,9 +58,7 @@ const Portfolio = () => {
             </Caption>
           </LeftWrapper>
           <LeftWrapper>
-            <Title position="" size="" distance="" color="">
-              Doświadczenie.
-            </Title>
+            <Title>Doświadczenie.</Title>
             <Caption>
               Pracowałem już z wieloma klientami indywidualnymi, ale też byłem
               współtwórcą Adaniel Nieruchomości. Sprzedawałem działki i domy,

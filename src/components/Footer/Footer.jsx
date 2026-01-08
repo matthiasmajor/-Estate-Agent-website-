@@ -37,6 +37,7 @@ export const StyledFooter = styled.footer`
   div:last-of-type {
     grid-row: 1 / 2;
     margin-left: auto;
+    margin-top: 20px;
 
     a {
       margin-right: 20px;

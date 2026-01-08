@@ -43,9 +43,9 @@ const Realizacje = (
   return (
     <ContentWrapper>
       <TitleWrappper>
-        <HighlightedHeading width="60">Realizację</HighlightedHeading>
+        <HighlightedHeading width="60">Realizacje</HighlightedHeading>
       </TitleWrappper>
-      <Caption>Ostatnie realizację</Caption>
+      <Caption>Ostatnie realizacje</Caption>
 
       {/* <ButtonSection>
         <Button

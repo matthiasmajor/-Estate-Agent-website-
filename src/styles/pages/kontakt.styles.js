@@ -42,8 +42,6 @@ export const Image = styled.img`
     margin-top:80px;
 `;
 export const ContactFormWrapper = styled.div`
-  margin-top: 40px;
-
   ${({ theme }) => theme.mq.desktop} {
     margin-left: -200px;
   }

@@ -95,6 +95,7 @@ export const StyledBurger = styled.button`
 
 export const StyledSocialIcon = styled(StyledIcon)`
   z-index: 1001;
+  color:black;
   display: inline-block;
   width: 50px;
   height: 50px;

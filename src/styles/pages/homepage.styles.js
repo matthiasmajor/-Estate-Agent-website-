@@ -99,6 +99,7 @@ export const Wrapper = styled.div`
   max-width: 90%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 60px auto;
   ${({ theme }) => theme.mq.desktop} {
     display: flex;
@@ -261,7 +262,7 @@ export const Oferta = styled.section`
   width: 100%;
 `;
 export const OfertaWrapper = styled.div`
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -283,7 +284,12 @@ export const Caption = styled.p`
 `;
 export const ButtonWrapper = styled.div`
   display: flex;
+  gap: 15px;
   margin-top: 10px;
+  margin-bottom: 20px;
+  ${({ theme }) => theme.mq.desktop} {
+    margin-bottom: 0px;
+  }
 `;
 
 export const ImagesOfertaWrapper = styled.div`
@@ -387,7 +393,7 @@ export const DetailInfoService = styled.section`
   }
 `;
 export const Div = styled.div`
-  margin-top: 700px;
+  margin-top: 800px;
   ${({ theme }) => theme.mq.desktop} {
     display: flex;
     justify-content: space-evenly;
@@ -466,6 +472,7 @@ export const DetailServiceInfoTitle = styled.p`
 
 export const ClientsSection = styled.section`
   padding: 20px;
+  text-align: center;
 
   ${({ theme }) => theme.mq.desktop} {
     margin: 60px auto;

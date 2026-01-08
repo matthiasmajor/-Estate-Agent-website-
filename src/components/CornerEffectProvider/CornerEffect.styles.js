@@ -57,6 +57,7 @@ export const CornerEffectWrapper = styled.div`
 
   ${({ theme, pseudoelement, color, size, distance, position }) => css`
     &::${pseudoelement} {
+    
         background-color: ${theme.color[color]};
         position: absolute;
         width: ${size};
@@ -75,6 +76,7 @@ export const CornerEffectWrapper = styled.div`
                   0 0,
                   100% 0
                 );
+
                 top: -${distance};
                 left: -${distance};
               `;
@@ -89,6 +91,7 @@ export const CornerEffectWrapper = styled.div`
                   100% 100%,
                   0 100%
                 );
+
                 bottom: -${distance};
                 left: -${distance};
               `;
@@ -103,6 +106,7 @@ export const CornerEffectWrapper = styled.div`
                   84% 100%,
                   84% 16%
                 );
+
                 top: -${distance};
                 right: -${distance};
               `;

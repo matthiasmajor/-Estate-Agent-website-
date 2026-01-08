@@ -29,7 +29,7 @@ export const BackgroundDiv = styled.span`
   padding: 5px 10px;
 `;
 
-export const Container = styled(CornerEffect)`
+export const Container = styled.div`
   margin-top: 60px;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@ export const Right = styled.div`
   grid-column: 2/2;
   grid-row: 1/1;
 `;
-export const Title = styled(CornerEffect)`
+export const Title = styled.h2`
   font-size: 1.7rem;
   font-weight: bold;
   font-family: ${({ theme }) => theme.font.family.montserrat};

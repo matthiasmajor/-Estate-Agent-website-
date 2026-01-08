@@ -48,6 +48,7 @@ import writing from "../assets/animations/writing.json";
 import smile from "../assets/animations/smile.json";
 import Lottie from "lottie-react";
 import { ThemeSwitch } from "../components/ThemeSwitch";
+import SEO from "../components/Seo";
 
 export const ContentWrapper = styled.div`
   margin-top: 90px;
@@ -77,6 +78,12 @@ const IndexPage = () => {
 
   return (
     <ContentWrapper id="main">
+      <SEO
+        title={"strona główna"}
+        description={
+          "Agencja nieruchomości w Katowicach, Będzinie, SIEWIERZ. Pomagamy sprzedać, kupić i wynająć mieszkania oraz domy. Skutecznie, bezpiecznie i bez stresu."
+        }
+      />
       <ThemeSwitch />
       <Hero url={HeroDesktopImage} />
       <Wrapper>
